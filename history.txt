@@ -1,0 +1,48 @@
+  530  mkdir git-majonez
+  531  cd git-majonez/
+  532  git init
+  533  touch main.cpp
+  534  git add main.cpp 
+  535  git commit -m "Initial commit"
+  536  git add main.cpp 
+  537  git commit -m "Farewell changed"
+  538  git remote add origin https://github.com/plkrgol/git-majonez.git
+  539  git push -u origin master
+  540  gitk
+  541  git branch help
+  542  git branch -d help 
+  543  git help branch
+  544  git rebase HEAD^
+  545  gitk
+  546  git log
+  547  git log --oneline
+  548  git branch cs 468c8c3
+  549  gitk --all
+  550  git checkout cs 
+  551  git add main.cpp 
+  552  git commit -m "Greetings"
+  553  git push origin cs
+  554  gitk --all
+  555  git checkout master 
+  556  git merge cs
+  557  git commit
+  558  git status
+  559  git add main.cpp 
+  560  git diff
+  561  git commit
+  562  git config --global core.editor
+  563  git config core.editor
+  564  git config --global core.editor "vim"
+  565  git config --global core.editor
+  566  clear
+  567  git --graph
+  568  git log --graph
+  569  clear
+  570  history
+  571  history | tail -n 41 > history.txt
+  572  cat history.txt 
+  573  history | tail -n 43 > history.txt
+  574  cat history.txt 
+  575  history | tail -n 45 > history.txt
+  576  cat history.txt 
+  577  history | tail -n 48 > history.txt
