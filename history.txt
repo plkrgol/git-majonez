@@ -12,13 +12,13 @@
   541  git branch help
   542  git branch -d help 
   543  git help branch
-  544  git rebase HEAD^
-  545  gitk
-  546  git log
-  547  git log --oneline
-  548  git branch cs 468c8c3
-  549  gitk --all
-  550  git checkout cs 
+  544  gitk
+  545  git log
+  546  git log --oneline
+  547  git branch cs
+  548  gitk --all
+  549  git checkout cs
+  550  git revert 468c8c3
   551  git add main.cpp 
   552  git commit -m "Greetings"
   553  git push origin cs
